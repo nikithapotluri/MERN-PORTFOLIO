@@ -1,4 +1,4 @@
-# 🌟 Nikitha Potluri - Portfolio Website
+# Portfolio Website
 
 Welcome to my personal portfolio website repository!  
 This site showcases my **skills**, **projects**, and **achievements** as I grow as a software developer and technology enthusiast.
