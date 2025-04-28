@@ -1,0 +1,91 @@
+/* Navbar Styles */
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Light Mode */
+.navbar-light {
+  background: linear-gradient(90deg, rgba(255, 193, 7, 0.1), rgba(0, 123, 255, 0.1));
+}
+
+.navbar-light .navbar-brand, .navbar-light .nav-link {
+  color: #343a40;
+}
+
+.navbar-light .nav-link:hover {
+  color: #f39c12;
+  transform: translateY(-2px);
+}
+
+/* Dark Mode */
+.navbar-dark {
+  background: linear-gradient(90deg, rgba(13, 110, 253, 0.1), rgba(0, 123, 255, 0.1));
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+  color: #f8f9fa;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #f39c12;
+  transform: translateY(-2px);
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Dark Mode Toggle Button */
+.btn-light, .btn-dark {
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-light:hover, .btn-dark:hover {
+  transform: scale(1.05);
+}
+
+.btn-light {
+  background-color: #f39c12;
+  color: #343a40;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: #f39c12;
+}
+
+/* Navbar Links */
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+}
+
+/* Icon animation inside link */
+.nav-link .me-2 {
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover .me-2 {
+  transform: scale(1.1);
+}
+
+/* Mobile Navbar Adjustments */
+@media (max-width: 991px) {
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.nav-item {
+  text-align: center;
+  margin-bottom: 10px;
+}
+}

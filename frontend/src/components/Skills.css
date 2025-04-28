@@ -1,0 +1,94 @@
+#skills {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(circle at 20% 30%, rgba(13, 110, 253, 0.05), transparent),
+              radial-gradient(circle at 80% 70%, rgba(255, 193, 7, 0.05), transparent);
+  transition: background-color 0.3s ease-in-out;
+}
+
+#skills .card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+#skills .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f39c12; /* Amber Color */
+  padding-bottom: 0.5rem;
+  color: #f39c12; /* Amber Color */
+}
+
+#skills .badge {
+  font-size: 0.9rem;
+  padding: 0.6em 1em;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0d6efd, #f39c12); /* Blue and Purple Gradient */
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#skills .badge:hover {
+  background: linear-gradient(135deg, #f39c12, #0d6efd); /* Hover effect for badge */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Mode */
+#skills.bg-dark .card {
+  background-color: #333;
+  color: white;
+}
+
+#skills.bg-dark .card-title {
+  color: white; /* White color for title in dark mode */
+  border-bottom: 2px solid white; /* White line below title */
+}
+
+#skills.bg-dark .badge {
+  background: linear-gradient(135deg, #0d6efd, #f39c12); /* Blue to Purple Gradient */
+  color: white;
+}
+
+#skills.bg-dark .badge:hover {
+  background: linear-gradient(135deg, #f39c12, #0d6efd); /* Hover effect for dark mode */
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  #skills {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #skills .card {
+    margin-bottom: 15px;
+  }
+}
+
+
+
+.skill-card {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.1), rgba(255, 193, 7, 0.1));
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: transform 0.4s ease, background 0.4s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.skill-card:hover {
+  transform: scale(1.1) rotate(2deg);
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.2), rgba(13, 110, 253, 0.2));
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+}
+
