@@ -23,6 +23,12 @@ export default function Projects({ darkMode }) {
       link: "https://github.com/nikithapotluri/DEPRESSION-ANXIETY-DETECTION",
       techStack: ["Python"],
     },
+    {
+      title: "Task Manager",
+      description: "A user-friendly console-based application designed to aid individuals and small teams in efficiently organizing and managing their tasks.",
+      link: "https://github.com/nikithapotluri/ToDo",
+      techStack: ["C++", "Data Structures"],
+    },
   ];
 
   return (
