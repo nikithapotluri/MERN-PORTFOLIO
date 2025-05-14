@@ -76,6 +76,7 @@ export default function Skills({ darkMode }) {
     "NodeJS", "ExpressJS",
     "MongoDB", "MySQL",
     "C", "C++", "Figma", "Canva",
+    "Data Structures & Algorithms", "OOPs",
     "Git/Github", "VSCode"
   ];
 
