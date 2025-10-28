@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Skills.css";
 
@@ -63,8 +63,10 @@ export default function Skills({ darkMode }) {
       </div>
     </section>
   );
-}*/
+}
 
+
+/*
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css";
@@ -109,3 +111,4 @@ export default function Skills({ darkMode }) {
     </section>
   );
 }
+*/
