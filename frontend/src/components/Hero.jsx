@@ -21,11 +21,11 @@ export default function Hero({ darkMode }) {
         <div className="lead animate__animated animate__fadeInUp animate__delay-1s fs-4">
           <TypeAnimation
             sequence={[
-              "B.Tech CSE Student", 2000,
-              "MERN Stack Developer", 2000,
-              "Tech Enthusiast", 2000,
-              "Artist", 2000,
-              "Content Writer", 2000,
+              "B.Tech CSE Student", 2500,
+              "MERN Stack Developer", 2500,
+              "Tech Enthusiast", 2500,
+              "Artist", 2500,
+              "Content Writer", 2500,
             ]}
             wrapper="span"
             speed={50}
@@ -40,10 +40,11 @@ export default function Hero({ darkMode }) {
         <a
           href="/assets/Potluri_Nikitha_Resume.pdf"
           download
-          className="btn btn-outline-secondary mt-4 resume-btn animate__animated animate__fadeInUp animate__delay-3s"
+          className="btn resume-btn mt-4 animate__animated animate__fadeInUp animate__delay-2s"
         >
           Download Resume
         </a>
+
       </div>
     </section>
   );

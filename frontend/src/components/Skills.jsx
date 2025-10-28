@@ -18,11 +18,15 @@ const skillsData = [
   },
   {
     title: "Languages",
-    items: ["C", "C++"],
+    items: ["C", "C++", "Java"],
+  },
+  {
+    title: "Version Control",
+    items: ["Git", "GitHub"],
   },
   {
     title: "Tools",
-    items: ["Figma", "Canva","Git/Github", "VSCode"],
+    items: ["VSCode", "Canva"],
   },
 ];
 
@@ -33,7 +37,9 @@ export default function Skills({ darkMode }) {
       className={`py-5 ${darkMode ? "bg-dark text-white" : "bg-light text-dark"}`}
     >
       <div className="container">
-        <h2 className="text-center mb-4 fw-bold">Skills</h2>
+        <h2 className="text-center mb-5 animate__animated animate__fadeInDown display-5 fw-semibold">
+          Skills
+        </h2>
         <div
           className="d-flex flex-nowrap overflow-auto px-2"
           style={{
@@ -45,15 +51,20 @@ export default function Skills({ darkMode }) {
             <div
               key={index}
               className={`card me-3 flex-shrink-0 ${darkMode ? "bg-secondary text-white" : ""}`}
-              style={{ minWidth: "250px", maxWidth: "250px" }}
+              style={{ minWidth: "250px", maxWidth: "250px", minHeight: "350px" }}
             >
               <div className="card-body">
                 <h5 className="card-title text-center fw-bold">{category.title}</h5>
-                <ul className="list-unstyled mt-3">
+                <ul className="list-unstyled ">
                   {category.items.map((item, i) => (
-                    <li key={i}>
-                      <span className="badge bg-primary mb-2 me-1">{item}</span>
-                    </li>
+                          <li key={i} className="mb-2 animate__animated animate__zoomIn"
+                              style={{
+                                animationDelay: `${index * 0.1}s`,
+                                animationFillMode: "both"
+                              }}
+                          >
+                            <div className="skill-card p-3 rounded shadow-sm">{item}</div>
+                          </li>
                   ))}
                 </ul>
               </div>

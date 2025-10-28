@@ -12,7 +12,7 @@ export default function About({ darkMode }) {
       }`}
     >
       <div className="text-center">
-        <h2 className="mb-4 animate__animated animate__fadeIn display-5 fw-semibold">
+        <h2 className="text-center mb-5 animate__animated animate__fadeInDown display-5 fw-semibold">
           About Me
         </h2>
         <div className="row justify-content-center">
@@ -27,7 +27,7 @@ export default function About({ darkMode }) {
               I have a strong interest in{" "}
               <span className="highlight">drawing & writing</span> newsletters, which allows me to express creativity and think outside the box. <br />
               <br />
-              Feel free to check out my work:
+              Feel free to check out my work!
             </p>
             <div className="d-flex justify-content-center gap-3">
               <a
