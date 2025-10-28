@@ -113,6 +113,32 @@
 }
 
 
+.scroll-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.scroll-btn {
+  background-color: #f39c12; /* Bright yellow */
+  border: none;
+  color: white; /* Arrow color */
+  padding: 0.8rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+}
+
+.scroll-btn:hover {
+  background-color: #f39c12; /* lighter yellow on hover */
+  transform: scale(1.1);
+}
+
+.scroll-btn:active {
+  transform: scale(0.95);
+}
 
 
 

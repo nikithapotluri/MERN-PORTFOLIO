@@ -30,10 +30,10 @@ export default function Footer({ darkMode }) {
             target="_blank"
             rel="noreferrer"
             className={`${
-              darkMode ? "text-white" : "text-dark"
+              darkMode ? "text-white" : "text-white"
             } d-flex align-items-center justify-content-center p-2 rounded-circle transition-all`}
             style={{
-              background: darkMode ? "#0077b5" : "#f8f9fa",
+              background: "#0077b5",
               width: "50px",
               height: "50px",
             }}
@@ -46,10 +46,10 @@ export default function Footer({ darkMode }) {
             target="_blank"
             rel="noreferrer"
             className={`${
-              darkMode ? "text-white" : "text-dark"
+              darkMode ? "text-white" : "text-white"
             } d-flex align-items-center justify-content-center p-2 rounded-circle transition-all`}
             style={{
-              background: darkMode ? "#333" : "#f8f9fa",
+              background: "#333" ,
               width: "50px",
               height: "50px",
             }}
@@ -60,10 +60,10 @@ export default function Footer({ darkMode }) {
           <a
             href="mailto:nikithapotluri17@gmail.com"
             className={`${
-              darkMode ? "text-white" : "text-dark"
+              darkMode ? "text-white" : "text-white"
             } d-flex align-items-center justify-content-center p-2 rounded-circle transition-all`}
             style={{
-              background: darkMode ? "#d44638" : "#f8f9fa",
+              background: "#d44638" ,
               width: "50px",
               height: "50px",
             }}
