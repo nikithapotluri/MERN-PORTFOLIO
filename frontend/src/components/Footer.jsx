@@ -73,7 +73,7 @@ export default function Footer({ darkMode }) {
         </div>
 
         <p className={`mb-0 ${darkMode ? "text-light" : "text-muted"}`} style={{ fontSize: "1rem" }}>
-          &copy; 2025 Nikitha Potluri. All Rights Reserved.
+          &copy; 2026 Nikitha Potluri. All Rights Reserved.
         </p>
       </div>
 
