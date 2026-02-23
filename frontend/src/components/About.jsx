@@ -31,6 +31,14 @@ export default function About({ darkMode }) {
             </p>
             <div className="d-flex justify-content-center gap-3">
               <a
+                href="https://ieeexplore.ieee.org/document/11380284"
+                target="_blank"
+                rel="noreferrer"
+                className={`btn ${darkMode ? "btn-light" : "btn-dark"}`}
+              >
+                Research Publication
+              </a>
+              <a
                 href="https://www.behance.net/nikitha_1710"
                 target="_blank"
                 rel="noreferrer"
