@@ -9,7 +9,9 @@ const skillsData = [
   { title: "Databases", items: ["MongoDB", "MySQL"] },
   { title: "Languages", items: ["C", "C++", "Java"] },
   { title: "Version Control", items: ["Git", "GitHub"] },
-  { title: "Tools", items: ["VSCode", "Canva", "Guidewire"] },
+  { title: "Platforms", items: ["Guidewire"] },
+  { title: "Tools", items: ["VSCode", "Postman", "SoapUI"] },
+
 ];
 
 export default function Skills({ darkMode }) {
