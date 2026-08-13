@@ -21,7 +21,7 @@ export default function Hero({ darkMode }) {
         <div className="lead animate__animated animate__fadeInUp animate__delay-1s fs-4">
           <TypeAnimation
             sequence={[
-              "B.Tech CSE Student", 2500,
+              "B.Tech CSE Graduate", 2500,
               "MERN Stack Developer", 2500,
               "Tech Enthusiast", 2500,
               "Artist", 2500,
