@@ -18,13 +18,12 @@ export default function About({ darkMode }) {
         <div className="row justify-content-center">
           <div className="col-md-10 animate__animated animate__fadeInUp animate__delay-1s">
             <p className="fs-5 text-center">
-              I am a <strong>B.Tech CSE</strong> student passionate about{" "}
-              web development and{" "}
-              <span className="highlight">problem solving</span>. <br />
+              I am a <strong>B.Tech CSE</strong> graduate passionate about 
+              <span className="highlight"> problem solving</span>. <br />
               I am always eager to explore new technologies and refine my skills. <br />
               I believe in <em className="highlight">collaboration</em> and enjoy working on projects that bring impactful change. <br />
               <br />
-              I have a strong interest in{" "}
+              I am interested in{" "}
               <span className="highlight">drawing & writing</span> newsletters, which allows me to express creativity and think outside the box. <br />
               <br />
               Feel free to check out my work!

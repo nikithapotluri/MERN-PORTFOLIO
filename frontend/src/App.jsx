@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css";
 import "./App.css";
@@ -34,6 +36,7 @@ export default function App() {
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Hero darkMode={darkMode} />
         <About darkMode={darkMode} />
+        <Experience darkMode={darkMode} />
         <Skills darkMode={darkMode} />
         <Projects darkMode={darkMode} />
         <Footer darkMode={darkMode} />
